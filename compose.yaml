@@ -3,7 +3,7 @@ services:
     build:
       context: .
     ports:
-      - 1313
+      - 1313:1313
     volumes:
-      - .:/app
+      - ./:/app/
     command: ["server", "-D", "--bind", "0.0.0.0"]
