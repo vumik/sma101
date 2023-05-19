@@ -1,8 +1,0 @@
-**/.git
-**/.idea
-**/.DS_Store
-**/.vs
-**/.vscode
-**/node_modules
-**/npm-debug.log
-**/.hugo_build.lock
