@@ -1,5 +1,4 @@
-ARG GO_VERSION=alpine
-ARG UID=10001
+ARG GO_VERSION=1.19-alpine
 FROM golang:${GO_VERSION}
 
 RUN --mount=type=cache,target=/var/cache/apk \
@@ -11,6 +10,7 @@ RUN --mount=type=cache,target=/var/cache/apk \
         && \
         update-ca-certificates
 
+ARG UID=10001
 RUN adduser \
     --disabled-password \
     --gecos "" \
@@ -18,7 +18,7 @@ RUN adduser \
     --shell "/sbin/nologin" \
     --no-create-home \
     --uid "${UID}" \
-    appuser \
+    appuser
 
 USER appuser
 
