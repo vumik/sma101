@@ -11,7 +11,8 @@ RUN --mount=type=cache,target=/var/cache/apk \
         update-ca-certificates
 
 ARG UID=10001
-RUN adduser \
+RUN git config --system --add safe.directory '*' \
+    && adduser \
     --disabled-password \
     --gecos "" \
     --home "/nonexistent" \
