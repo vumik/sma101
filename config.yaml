@@ -3,12 +3,27 @@
 baseURL: https://vumik.github.io/sma101/
 title: SMA 101
 theme: hugo-book
+yandexMetrica: ""
 defaultContentLanguage: ru
-#defaultContentLanguageInSubdir: true
+summaryLength: 70
 
-# Book configuration
-disablePathToLower: true
-enableGitInfo: false
+defaultContentLanguageInSubdir: true
+disableHugoGeneratorInject: true
+enableEmoji: true
+enableGitInfo: true
+disablePathToLower: false
+enableRobotsTXT: false
+
+copyright: "SMA 101"
+
+disableKinds: ['taxonomy', 'taxonomyTerm']
+
+imaging:
+  exif:
+    disableDate: false
+    disableLatLong: true
+    excludeFields: ""
+    includeFields: ""
 
 # Needed for mermaid/katex shortcodes
 markup:
@@ -18,19 +33,18 @@ markup:
   tableOfContents:
     startLevel: 1
 
-# Multi-lingual mode config
-# There are different options to translate files
-# See https://gohugo.io/content-management/multilingual/#translation-by-filename
-# And
+minify:
+  minifyOutput: true
+
 languages:
   ru:
     languageName: Русский
     contentDir: content/ru
     weight: 1
-#  en:
-#    languageName: English
-#    contentDir: content/en
-#    weight: 2
+  en:
+    languageName: English
+    contentDir: content/en
+    weight: 2
 
 params:
   # (Optional, default light) Sets color theme: light, dark or auto.
@@ -71,7 +85,7 @@ params:
   # Configure the date format used on the pages
   # - In git information
   # - In blog posts
-  BookDateFormat: "January 2, 2006"
+  BookDateFormat: "2006-01-02"
 
   # (Optional, default true) Enables search function with flexsearch,
   # Index is built on fly, therefore it might slowdown your website.
