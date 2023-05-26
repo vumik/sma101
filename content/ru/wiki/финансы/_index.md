@@ -1,5 +1,5 @@
 ---
 title: "Финансы"
 bookCollapseSection: true
-weight: 20
+weight: 7
 ---
