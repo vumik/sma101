@@ -1,5 +1,8 @@
 ---
 title: "Освобождение от налогов"
-bookCollapseSection: true
 weight: 20
+bookToc: false
+bookCollapseSection: true
 ---
+
+{{<section>}}

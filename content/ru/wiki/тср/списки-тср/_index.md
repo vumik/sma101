@@ -1,5 +1,8 @@
 ---
 title: "Списки ТСР"
-bookCollapseSection: true
 weight: 20
+bookToc: false
+bookCollapseSection: true
 ---
+
+{{<section>}}

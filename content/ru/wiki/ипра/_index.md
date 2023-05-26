@@ -1,7 +1,8 @@
 ---
 title: "ИПРА"
-bookCollapseSection: true
 weight: 4
+bookToc: false
+bookCollapseSection: true
 ---
 
 {{<section>}}

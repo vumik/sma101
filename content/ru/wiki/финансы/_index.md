@@ -1,5 +1,8 @@
 ---
 title: "Финансы"
-bookCollapseSection: true
 weight: 7
+bookToc: false
+bookCollapseSection: true
 ---
+
+{{<section>}}

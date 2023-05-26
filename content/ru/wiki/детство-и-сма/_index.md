@@ -1,5 +1,8 @@
 ---
 title: "Детство и СМА"
-bookCollapseSection: true
 weight: 3
+bookCollapseSection: true
+bookToc: false
 ---
+
+{{<section>}}

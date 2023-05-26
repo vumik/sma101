@@ -1,5 +1,8 @@
 ---
 title: "Генетика"
-bookCollapseSection: true
 weight: 2
+bookToc: false
+bookCollapseSection: true
 ---
+
+{{<section>}}

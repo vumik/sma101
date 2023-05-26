@@ -1,5 +1,8 @@
 ---
 title: "Скидки"
-bookCollapseSection: true
 weight: 20
+bookToc: false
+bookCollapseSection: true
 ---
+
+{{<section>}}

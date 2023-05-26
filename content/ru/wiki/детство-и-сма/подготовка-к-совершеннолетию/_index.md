@@ -1,5 +1,8 @@
 ---
 title: "Подготовка к совершеннолетию"
-bookCollapseSection: true
 weight: 20
+bookToc: false
+bookCollapseSection: true
 ---
+
+{{<section>}}

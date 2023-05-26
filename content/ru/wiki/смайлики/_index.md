@@ -1,5 +1,8 @@
 ---
 title: "СМАйлики"
-bookCollapseSection: true
 weight: 18
+bookToc: false
+bookCollapseSection: true
 ---
+
+{{<section>}}
