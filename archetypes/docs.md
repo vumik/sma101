@@ -1,6 +1,9 @@
 ---
 title: "{{ .Name | humanize | title }}"
-weight: 1
+weight: 1000
+translationKey:
+keywords: 
+description:
 # bookFlatSection: false
 # bookToc: true
 # bookHidden: false
