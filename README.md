@@ -6,7 +6,7 @@ todo: Add project description.
 
 - Add/Edit project files with Github web-editor
 - Commit your changes
-- Create Pull-request to `preview` brunch
+- Create Pull-request to `preview` branch
 - Wait for approval
 
 
