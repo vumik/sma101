@@ -1,0 +1,11 @@
+- id: Author
+  translation: Автор
+
+- id: AuthorPosition
+  translation: Должность
+
+- id: BasedOn
+  translation: Источник
+
+- id: License
+  translation: Текст доступен по лицензии <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/" target="_blank" rel="noopener">Creative Commons Attribution-NonCommercial-ShareAlike 3.0</a>; в отдельных случаях могут действовать дополнительные условия.
