@@ -34,6 +34,6 @@ todo: Add project description.
 - [Hugo-book theme](https://github.com/alex-shpak/hugo-book)
 
 
-## Licence
+## License
 
 [CC BY-NC-SA 3.0](https://creativecommons.org/licenses/by-nc-sa/3.0/)
