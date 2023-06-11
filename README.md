@@ -1,6 +1,6 @@
 # SMA 101
 
-todo: Add project description.
+SMA 101 is a collaborative effort to gather and organize valuable information related to Spinal Muscular Atrophy. By leveraging the collective wisdom of the SMA community, the project aims to create a comprehensive resource that can assist individuals, families, and healthcare professionals in understanding and managing SMA.
 
 ## Quick start
 
