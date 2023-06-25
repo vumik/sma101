@@ -1,7 +1,12 @@
 {{ if or (or .Params.author .Params.authorPosition) .Params.basedOnUrl }}
 <hr />
-<div><strong>{{ i18n "Author" }}:</strong> {{ .Params.author }}</div>
-<div><strong>{{ i18n "AuthorPosition" }}:</strong> {{ .Params.authorPosition }}</div>
+{{- with .Params.author -}}
+<div><strong>{{ i18n "Author" }}:</strong> {{ . }}</div>
+{{- end -}}
+
+{{- with .Params.authorPosition -}}
+<div><strong>{{ i18n "AuthorPosition" }}:</strong> {{ . }}</div>
+{{- end -}}
 
 {{ if and .Params.basedOnUrl .Params.basedOnTitle }}
 <div><strong>{{ i18n "BasedOn" }}:</strong> <a href="{{ .Params.basedOnUrl }}" target="_blank" rel="noopener">{{ .Params.basedOnTitle }}</a></div>
